@@ -1,7 +1,7 @@
 #ifndef SAMPLE_LIBRARY_HPP
 #define SAMPLE_LIBRARY_HPP
 
-#include <myproject/sample_library_export.hpp>
+#include <lefticus_cmake_cpp_best_practices/sample_library_export.hpp>
 
 [[nodiscard]] SAMPLE_LIBRARY_EXPORT int factorial(int) noexcept;
 

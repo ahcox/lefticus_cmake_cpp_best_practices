@@ -1,4 +1,4 @@
-macro(myproject_enable_ipo)
+macro(lefticus_cmake_cpp_best_practices_enable_ipo)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result OUTPUT output)
   if(result)
